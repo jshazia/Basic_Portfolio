@@ -23,6 +23,9 @@ footer {
     border-top: 5px solid #4aaaa5;
 }
 
+#last {
+    border-right: 0px;
+}
 
 h1{
     font-weight: bolder;
@@ -59,7 +62,6 @@ li {
 }
 
 
-
 .header_links a{
     color: gray;
     text-decoration: none;
@@ -84,7 +86,11 @@ h2 {
 
 }
 
-
+.connectcontent
+{
+    padding: 15px;
+    text-align: center;
+}
 
 #me{
     float: left;
@@ -109,11 +115,7 @@ h3 {
     margin: 10px;
 }
 
-.connectcontent
-{
-    padding: 15px;
-    text-align: center;
-}
+
 
 input[type=text]{
 
@@ -173,7 +175,7 @@ input[type=submit] {
 
 
 .content{
-            width: 650px;
+             width: 650px;
              background: #ffffff;
              border: 5px solid #dddddd;
              height: auto;
@@ -183,6 +185,7 @@ input[type=submit] {
              padding: 20px;
 
          }
+
 
 
 
